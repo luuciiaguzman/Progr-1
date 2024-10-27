@@ -9,7 +9,7 @@ public class Main {
         System.out.println(localidad);
 
         Municipio municipio = new Municipio("Madrid");
-        municipio.agregarLocalidad(localidad);
+        municipio.agregarLocalidad(Localidad);
         System.out.println("Número total de habitantes del municipio: " + municipio.contarHabitantes());
 
         Provincia provincia = new Provincia("Madrid");
